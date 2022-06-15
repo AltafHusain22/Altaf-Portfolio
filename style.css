@@ -2,7 +2,14 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
 
+
+/*hero section*/
+
+section {
+    display: flex;
+    margin-bottom: 160px;
 }
 
 h1 {
@@ -13,11 +20,7 @@ h1 {
     color: #ee533e
 }
 
-section {
-    display: flex;
-}
-
-.hero-part {
+.half-part {
     width: 50%;
     padding-left: 70px;
 }
@@ -38,4 +41,13 @@ a {
 .corner-dot-image {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+/*Dream big*/
+.Dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+    
 }
