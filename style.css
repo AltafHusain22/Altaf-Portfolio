@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.color-text {
+    color: #ee533e
+}
+
+section {
+    display: flex;
+}
+
+.hero-part {
+    width: 50%;
+    padding-left: 70px;
+}
+
+img {
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-image: linear-gradient(#ee533e, #f1b00c);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.corner-dot-image {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
