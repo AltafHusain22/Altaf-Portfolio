@@ -7,13 +7,16 @@ body {
 
 /*hero section*/
 
-section {
+.flex_area {
     display: flex;
     margin-bottom: 160px;
 }
 
 h1 {
     font-size: 50px;
+}
+h2 {
+    font-size: 35px;
 }
 
 .color-text {
@@ -51,3 +54,29 @@ a {
    
     
 }
+/* Experience area*/
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 0ex;
+}
+.exp-head{
+    margin-left: 5%;
+}
+
+.shadow{
+    box-shadow: 10px 10px 20px rgb(212, 208, 208);
+    width:40%;
+    margin-left:5%;
+    margin-right: 4%;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-left: solid 7px  #ee533e;
+    border-radius: 10px;
+    
+    
+}
+
